@@ -242,6 +242,7 @@ async def main():
         url = 'https://blaze-1.com/api/roulette_games/recent'
         response = requests.get(url)
         r = response.json()
+        print(r)
         lista_atual = []
 
         for x in range(len(r)):
